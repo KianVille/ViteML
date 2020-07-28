@@ -1,4 +1,3 @@
-//Version 0.1
 //This is for bookmarklet;
 document.querySelector("#contentIframe").src = 'http://192.168.254.254/ipqostc.htm';
 let KV_ORIG_STYLES = [];
@@ -182,7 +181,8 @@ addHTML(`
 
 <div class="KV_PAGE" id="KV_MENU">
             <div class="kv_title">
-                <h1>KV HACK</h1>
+                <h1>Vite ML</h1>
+                <h6>version 0.2</h6>
             </div>
     
             <div class="kv_buttons">

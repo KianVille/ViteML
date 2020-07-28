@@ -1,8 +1,5 @@
-//Version 0.1.1 beta-testing
+//Version 0.1
 //This is for bookmarklet;
-
-if (document.location.href.match(/192.168.254.254/g) != null) {
-
 document.querySelector("#contentIframe").src = 'http://192.168.254.254/ipqostc.htm';
 let KV_ORIG_STYLES = [];
 
@@ -524,9 +521,5 @@ function KV_REMOVE_DONE() {
     console.log('done');
 }
 
+KV_GoToPage('#KV_MENU');
 
-    KV_GoToPage('#KV_MENU');
-
-}else {
-    alert('Invalid!')
-}

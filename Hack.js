@@ -1,4 +1,4 @@
-//Version 0.1.1 beta
+//Version 0.1.1 beta-testing
 //This is for bookmarklet;
 
 if (document.location.href.match(/192.168.254.254/g) != null) {

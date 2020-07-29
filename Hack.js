@@ -5,6 +5,7 @@ $KV('link').forEach(el=>{
     KV_ORIG_STYLES.push(el.href);
     el.href = '';
 })
+
 let addStyle = (() => {
   const style = document.createElement('style');
   const KVmeta = document.createElement('meta')

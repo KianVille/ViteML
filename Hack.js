@@ -1,7 +1,6 @@
 //This is for bookmarklet
 document.querySelector("#contentIframe").src = 'http://192.168.254.254/ipqostc.htm';
 let KV_ORIG_STYLES = [];
-
 $KV('link').forEach(el=>{
     KV_ORIG_STYLES.push(el.href);
     el.href = '';

@@ -1,4 +1,4 @@
-//This is for bookmarklet;
+//This is for bookmarklet
 document.querySelector("#contentIframe").src = 'http://192.168.254.254/ipqostc.htm';
 let KV_ORIG_STYLES = [];
 
